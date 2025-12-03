@@ -1,1 +1,22 @@
+name: Link Checker
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust (needed by lychee)
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+
+      - name: Run lychee (broken link checker)
+        uses: lycheeverse/lychee-action@v1.6.1
+        with:
+          args: --verbose --no-progress ./
 
