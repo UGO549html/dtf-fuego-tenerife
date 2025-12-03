@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Metro Lineal DTF (58cm)",
+        "price": 12.00,
+        "category": "Impresión",
+        "image": "assets/images/product-1.jpg",
+        "desc": "Sube tu Gang Sheet de 58x100cm. Calidad premium, pelado en caliente."
+    },
+    {
+        "id": 2,
+        "name": "Transfer A4 - Pack 10",
+        "price": 25.00,
+        "category": "Packs",
+        "image": "assets/images/product-2.jpg",
+        "desc": "10 hojas A4 con tus diseños listos para planchar."
+    },
+    {
+        "id": 3,
+        "name": "Logo Pecho (10cm) - x50",
+        "price": 40.00,
+        "category": "Etiquetas",
+        "image": "assets/images/product-3.jpg",
+        "desc": "Ideal para uniformes y marcas de ropa. Alta durabilidad."
+    },
+    {
+        "id": 4,
+        "name": "Diseño Personalizado",
+        "price": 15.00,
+        "category": "Servicios",
+        "image": "assets/images/product-4.jpg",
+        "desc": "Servicio de vectorización y acomodo de Gang Sheet."
+    }
+]
