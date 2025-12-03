@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1a1a1a;
+    color: #f3f4f6;
+}
+
+.font-brand {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #fbbf24, #ef4444, #ec4899);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.btn-fuego {
+    background: linear-gradient(45deg, #f59e0b, #ef4444);
+    transition: all 0.3s ease;
+}
+
+.btn-fuego:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.6);
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+.logo-anim {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
