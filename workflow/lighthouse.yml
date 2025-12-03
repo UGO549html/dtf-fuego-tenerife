@@ -1,1 +1,19 @@
+name: Lighthouse CI (remote URL)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Lighthouse CI on public URL
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          urls: |
+            https://TU_USUARIO.github.io/TU_REPO/
+          # optional: thresholds, config-file, outputPath, etc.
 
