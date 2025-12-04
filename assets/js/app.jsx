@@ -249,7 +249,7 @@ const App = () => {
           </div>
           <div className="flex items-start gap-4">
             <div className="bg-gray-800 p-3 rounded-full text-green-500"><Phone size={24} /></div>
-            <div><h3 className="text-xl font-bold text-white mb-1">WhatsApp / Teléfono</h3><p className="text-gray-400">+34 600 000 000</p></div>
+            <div><h3 className="text-xl font-bold text-white mb-1">WhatsApp / Teléfono</h3><p className="text-gray-400">+34 625 286 488</p></div>
           </div>
           <div className="flex items-start gap-4">
             <div className="bg-gray-800 p-3 rounded-full text-pink-500"><Instagram size={24} /></div>
@@ -291,3 +291,4 @@ const App = () => {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(<App />);
+
