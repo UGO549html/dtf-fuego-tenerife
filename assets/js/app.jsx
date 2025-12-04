@@ -63,7 +63,7 @@ const App = () => {
       message += `- ${item.name} (x${item.qty}): ${item.price * item.qty}€\n`;
     });
     message += `\nTotal: ${total.toFixed(2)}€\n\n¿Cómo procedemos con el envío de archivos?`;
-    const url = `https://wa.me/34600000000?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/34625286488?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
 
@@ -289,4 +289,5 @@ const App = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(<App />);
